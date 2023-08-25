@@ -6,11 +6,14 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [API Endpoints](#api-endpoints)
-- [Database Schema](#database-schema)
+- [Database Schema](#database-)
 
 ## Getting Started
 
 This project is based on Node.js + GCF + Javascript + ExpressJS + MongoDB.
+
+## Github Repository Link
+- https://github.com/MahedialiBhatt/Blog-GCF
 
 ### Prerequisites
 
@@ -21,7 +24,7 @@ This project is based on Node.js + GCF + Javascript + ExpressJS + MongoDB.
 
 Follow these steps to set up and run the project:
 
-1. Clone the repository.
+1. Clone the repository (https://github.com/MahedialiBhatt/Blog-GCF).
 2. Open cloned folder in preferred code editor, ex. VSCode.
 3. Install npm dependencies: `npm install`
 4. Create a `.env` file inside root directory and copy keys from .env.example file and SET values to them
@@ -119,6 +122,8 @@ The application uses a MongoDB database to store blog. The schema for the `blogs
   updatedAt: Date.now()
 }
 ```
+
+NOTE: (Unable to deploy via Google cloud function because it was asking for payment method and if will able to add payment method then update the code and will send info via email)
 ----------------------------------------------------------------------------------------------
 
 
