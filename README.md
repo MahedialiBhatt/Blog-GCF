@@ -24,7 +24,7 @@ Follow these steps to set up and run the project:
 1. Clone the repository.
 2. Open cloned folder in preferred code editor, ex. VSCode.
 3. Install npm dependencies: `npm install`
-4. Create a `.env` file inside root directory and copy keys from .env.example file and add values to them
+4. Create a `.env` file inside root directory and copy keys from .env.example file and SET values to them
 5. Start the application (By using any one of them): 1. ```npm run start``` 2. ```npm run start:dev```
 
 ## API Endpoints
