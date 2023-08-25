@@ -12,6 +12,14 @@ const PostSchema = new mongoose.Schema(
   }
 );
 
+PostSchema.methods.toJSON = function () {
+  var obj = this.toObject();
+  obj["id"] = obj._id;
+  delete obj._id;
+  delete obj.__v;
+  return obj;
+};
+
 const Post = mongoose.model("Post", PostSchema);
 
 module.exports = Post;
